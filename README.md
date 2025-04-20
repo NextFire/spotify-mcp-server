@@ -7,7 +7,7 @@
 
 ```sh
 ./generate-client.sh
-SPOTIFY_CLIENT_ID=<client_id> SPOTIFY_CLIENT_SECRET=<client_secret> uv run server.py
+SPOTIFY_CLIENT_ID=<client_id> SPOTIFY_CLIENT_SECRET=<client_secret> uv run spotify-mcp-server
 ```
 
 ## Claude Desktop config
