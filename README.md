@@ -20,3 +20,7 @@ SPOTIFY_CLIENT_ID=<client_id> SPOTIFY_CLIENT_SECRET=<client_secret> uv run serve
   }
 }
 ```
+
+## Demo
+
+<img width="494" alt="Screenshot 2025-04-20 at 21 35 45" src="https://github.com/user-attachments/assets/c9f83ea9-61ac-453e-a973-3faf5a7f6f55" />
