@@ -15,6 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
+      - run: ./generate-client.sh
       - run: uv run --frozen pyright
       - run: uv run --frozen ruff check
         if: always()
