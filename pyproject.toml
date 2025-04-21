@@ -18,7 +18,7 @@ dependencies = [
 dev = ["pyright==1.1.399", "ruff==0.11.6"]
 
 [tool.uv.sources]
-mcp = { git = "https://github.com/NextFire/python-sdk.git", branch = "fix/ignore-underscored-args" }
+mcp = { git = "https://github.com/NextFire/python-sdk.git", branch = "feat/expose-skip-names_latest-tag" }
 spotify-api = { path = "spotify-api" }
 
 [project.scripts]
