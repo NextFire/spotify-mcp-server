@@ -176,8 +176,13 @@ async def app_lifespan(server: FastAPI) -> AsyncIterator[None]:
                 assert member.__doc__
                 mcp.add_tool(
                     member,
-                    f"{cls_name}-{name}"[:64],
-                    member.__doc__.splitlines()[2],
+                    name=f"{cls_name}-{name}"[:64],
+                    description=member.__doc__.splitlines()[2],
+                    skip_names=[
+                        name
+                        for name in inspect.signature(member).parameters
+                        if name.startswith("_")
+                    ],
                 )
 
         yield

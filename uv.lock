@@ -363,8 +363,8 @@ wheels = [
 
 [[package]]
 name = "mcp"
-version = "0.0.1.dev380+6e1dc50"
-source = { git = "https://github.com/NextFire/python-sdk.git?branch=fix%2Fignore-underscored-args#6e1dc505680a3606b0e8b4a970dd7220c77b1930" }
+version = "0.0.1.dev380+b65ab81"
+source = { git = "https://github.com/NextFire/python-sdk.git?branch=feat%2Fexpose-skip-names#b65ab818abd6d53ca0dab7c7aaf35e2cfc685410" }
 dependencies = [
     { name = "anyio" },
     { name = "httpx" },
@@ -807,7 +807,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "fastapi", specifier = "==0.115.12" },
-    { name = "mcp", git = "https://github.com/NextFire/python-sdk.git?branch=fix%2Fignore-underscored-args" },
+    { name = "mcp", git = "https://github.com/NextFire/python-sdk.git?branch=feat%2Fexpose-skip-names" },
     { name = "spotify-api", directory = "spotify-api" },
     { name = "uvicorn", specifier = "==0.34.2" },
     { name = "yarl", specifier = "==1.20.0" },
