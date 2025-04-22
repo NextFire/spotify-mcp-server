@@ -23,4 +23,4 @@ SPOTIFY_CLIENT_ID=<client_id> SPOTIFY_CLIENT_SECRET=<client_secret> uv run spoti
 
 ## Demo
 
-<img width="494" alt="Screenshot 2025-04-20 at 21 35 45" src="https://github.com/user-attachments/assets/c9f83ea9-61ac-453e-a973-3faf5a7f6f55" />
+<img width="846" alt="435671282-643a049e-5962-4891-9d56-391dfed35057" src="https://github.com/user-attachments/assets/817a1b98-d4b2-447e-bcc5-e2050bddb2aa" />
